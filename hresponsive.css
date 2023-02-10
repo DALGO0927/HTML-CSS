@@ -1,0 +1,30 @@
+.contenedor{
+    display:flex;
+}
+
+.lateral{
+    background-color: brown;
+    padding: 0.25rem;
+    border:solid 2px black;
+    
+    font-size: 1.5rem
+   
+    
+}
+
+.principal{
+    background-color: blue;
+    border:solid 1px black;
+    gap: 10px;
+    padding: 0.25rem;
+    font-size: 2rem;
+    display: flex;
+}
+
+@media(min-width:640px){
+    .lateral{
+        background-color: aqua;
+        flex-direction: row-reverse;
+    }
+
+}
