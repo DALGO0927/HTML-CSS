@@ -1,0 +1,33 @@
+
+body {
+    padding: 0;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.btn-modern {
+    color:red;
+    background-color: blue;
+    border: none;
+    width: 100px;
+    height: 60px;
+    border-bottom: 2px solid darkblue;
+    cursor:pointer;
+    animation: traslation 0.4s ease-in-out infinite forwards alternate
+}.btn-modern:hover {
+    transform: translateY(-5px);
+    background-color: darkslateblue;
+    box-shadow: darkblue;
+    color: aliceblue;
+}
+
+
+@keyframes traslation {
+    100%{
+        background-color: rgb(14, 250, 34);
+        transform: translateX(0%) translateY(-5px);
+   
+    
+}}
