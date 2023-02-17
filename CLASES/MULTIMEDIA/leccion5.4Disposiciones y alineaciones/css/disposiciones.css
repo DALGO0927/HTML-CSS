@@ -1,0 +1,21 @@
+.div-1, .div-2{
+    background-color: blue;
+
+}
+
+.Span-1{
+    background-color: aqua;
+    /* pdisplay:inline; POR DEFECTO TIENE SPAN INLINE */
+    float: right;
+}
+
+.Span-2{
+    background-color: aqua;
+    /* pdisplay:inline; POR DEFECTO TIENE SPAN INLINE */
+    float:left;
+}
+.img{
+    width: 60px;
+    height: 50px;
+    display: inline-block;
+}

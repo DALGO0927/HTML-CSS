@@ -1,0 +1,42 @@
+h1{
+    color:red;
+}
+
+/* Estoy probando colores y fuentes*/
+
+p{
+    color: blue;
+    font-size:16pt;
+}
+
+p#primera-noticia {
+    color: green;
+    font-size:12pt;
+}
+
+#segunda-noticia{
+    color: blueviolet;
+    font-size: 12pt;
+}
+
+.encabezado {
+    font-size: 24pt;
+    text-transform: uppercase;
+
+}
+
+*{
+/* aplicar estilos a todos los elementos que no lo tengan */
+}
+
+*.warning{ /*selector universar */
+    color: red;
+}
+
+.autor{
+    text-decoration: underline;/*para selectores de uno a uno*/
+}
+
+.fecha, .ubicacion{
+    text-decoration: underline;/*afectar varios al tiempo*/
+}

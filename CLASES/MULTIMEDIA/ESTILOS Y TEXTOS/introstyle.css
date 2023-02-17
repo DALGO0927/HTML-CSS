@@ -1,0 +1,57 @@
+.colores{/* estilo para colores */
+    color: orangered;
+}
+
+.color-hexadecimal{
+    color: #e15554;
+}
+.color-rgb{
+    color: rgb(100, 0, 200);
+}
+.color-rgba{
+    color:rgba(53, 160, 53, 0.466)
+}
+
+/*Fondos  */
+
+.fondo{
+    background-color: #e15454a2;
+    background-image: url("https://i.pinimg.com/474x/a6/24/c0/a624c088c3d7005cc26812a541fdf74a.jpg");
+    background-position: left bottom;
+   
+   
+}
+.fondo{
+    background-color: #e15454a2;
+    background-image: url("https://i.pinimg.com/474x/a6/24/c0/a624c088c3d7005cc26812a541fdf74a.jpg");
+    background-position: left bottom;
+   
+   
+}
+.fondo-interno{
+    
+    background-image: url("/imagenes/control\ xbox.jpg");
+    background-position:center;
+   
+   
+}
+
+/* Tamaños */
+.ancho {
+    background-color: chocolate;
+    width: 100px;
+}
+.alto{
+    background-color: aqua;
+    height: 200px;
+}
+
+.tarjeta {
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    border-width: 5px;
+    border-top: none;
+    padding: 10px 20px;
+    margin: 10px 20px;
+}
+   

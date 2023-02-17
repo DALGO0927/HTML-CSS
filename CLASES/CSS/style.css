@@ -1,0 +1,37 @@
+h1{
+    /* color: aqua; */
+    font-size: 50pt;
+}
+/*esto es para colocar colores y fuentes al parrafo*/
+p {
+    color:blue;
+    font-size: 50px;
+      
+}
+#primera-noticia{
+    color:blueviolet;
+    font-size: 16pt;
+}
+
+#segunda-noticia{
+    /* color:rgb(226, 214, 43); */
+    font-size: 16pt;
+}
+.encabezado {
+    font-size: 30pt;
+    text-transform: uppercase;
+}
+/* para colocarle color a los elementos que no le di color */
+/* * {
+    color:darkorange;
+} */
+
+*.warning {
+    color:red;
+}
+.Autor, .Ubicacion{
+    text-decoration: underline;
+}
+.fecha{
+    text-decoration: underline;
+}
